@@ -6,7 +6,6 @@ sudo su - jenkins -s /bin/bash
 ssh-keygen
 cat ~/.ssh/id_rsa.pub to github
 
-
 vi .ssh/config
  Host *
    StrictHostKeyChecking no
